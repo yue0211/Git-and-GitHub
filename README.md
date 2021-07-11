@@ -9,6 +9,11 @@
     3. 每個 Repositories 內 都可以建立很多 branch,
        每個 branch 可以放很多資料
 
+    4. branch是為了將修改記錄的整體流程分開儲存，讓分開的
+       branch不受其他branch的影響，所以在同一個數據庫裡可
+       以同時進行多個不同的修改。分開的branch還是可以和其他
+       branch合併的。
+
 ## 指令教學:
 
     1.  git clone 網址
@@ -30,8 +35,10 @@
             (main 代表branch的名稱)
 
     4.
+        創造branch: git branch branch的名字
+    5.
         切換分支: git checkout branch的名稱
 
-    
+    6. Repositories內 要創檔案時,檔案內一定要有東西
 
 
