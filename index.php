@@ -4,12 +4,19 @@ $text= $_POST["text"];
 // data strored in array
 
 
-$hostname = "ec2-52-2-118-38.compute-1.amazonaws.com";
-$dbname = "dfdobug1c771t2";
-$username = "cbynnhmmgimwaq";
-$pass = "3d7fc902098189e0744a6ec5a9c84904af2cd1607c297488d51fda4654c6c518";
+// $hostname = "ec2-52-2-118-38.compute-1.amazonaws.com";
+// $dbname = "dfdobug1c771t2";
+// $username = "cbynnhmmgimwaq";
+// $pass = "3d7fc902098189e0744a6ec5a9c84904af2cd1607c297488d51fda4654c6c518";
+// $port = 5432
+
+$hostname = "discordbotdatabase.czhutqsbjfeu.us-east-1.rds.amazonaws.com";
+$dbname = "postgres";
+$username = "kay";
+$pass = "asx5566789";
 $port = 5432
 
+echo "<h1 style='color:red;'>哭阿</h1>"
 // CREATE the connection TO the PostgreSQL
 $db_conn = pg_connect(" host = $hostname dbname = $dbname user = $username password = $pass port = $port ");
 
