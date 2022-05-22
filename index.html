@@ -152,8 +152,8 @@
 				success: function( output ) {
 			   $( "#out" ).html(output);
 				},
-			error : function(){
-				alert( "Request failed." );
+			error : function(xmlhttprequest){
+				alert( "Request failed." +xmlhttprequest.status);
 			}
 			});
 		}

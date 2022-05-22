@@ -14,10 +14,11 @@ $hostname = "discordbotdatabase.czhutqsbjfeu.us-east-1.rds.amazonaws.com";
 $dbname = "postgres";
 $username = "kay";
 $pass = "asx5566789";
-$port = 5432
+# $port = "5432"
+
 
 // CREATE the connection TO the PostgreSQL
-$db_conn = pg_connect(" host = $hostname dbname = $dbname user = $username password = $pass port = $port ");
+$db_conn = pg_connect(" host = $hostname dbname = $dbname user = $username password = $pass ");
 
 
 $result = pg_query($db_conn, "SELECT * FROM discord_Yue");
