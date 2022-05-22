@@ -16,7 +16,6 @@ $username = "kay";
 $pass = "asx5566789";
 $port = 5432
 
-echo "<h1 style='color:red;'>哭阿</h1>"
 // CREATE the connection TO the PostgreSQL
 $db_conn = pg_connect(" host = $hostname dbname = $dbname user = $username password = $pass port = $port ");
 
